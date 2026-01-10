@@ -47,60 +47,70 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 # Curriculum
 
-## Intro African Studies
+## I. Foundations of Africa
 
-These subjects provide essential grounding in the scope of African Studies, key concepts, and interdisciplinary methods.
+| Subject | Book / Text | Online Resource |
+| --- | --- | --- |
+| What Is African Studies? | **[UNESCO – General History of Africa, Vol. 1 (Methodology & Prehistory)](https://unesdoc.unesco.org/ark:/48223/pf0000042225)** | **[UNESCO GHA Portal](https://www.unesco.org/en/general-history-africa)** |
+| African Geography & Ecology | **[UNESCO GHA Vol. 1 (Environment chapters)](https://unesdoc.unesco.org/ark:/48223/pf0000042225)** | **[National Geographic Africa](https://education.nationalgeographic.org/resource/africa-physical-geography/)** (Educational overview & maps) |
+| Human Origins & Archaeology | — | **[Smithsonian Human Origins (Africa sections)](https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens)** |
+| African Peoples & Migration | **[UNESCO GHA Vol. 2](https://unesdoc.unesco.org/ark:/48223/pf0000184287)** | **[British Museum – “Ancient Africa”](https://www.britishmuseum.org/collection/africa)** (Virtual galleries & exhibits) |
+| African Language Families | — | **[Roger Blench – African languages (open PDFs)](https://rogerblench.info/Language/Africa/AflingOP.htm)** |
+| African Historiography | **[UNESCO GHA Vol. 1](https://unesdoc.unesco.org/ark:/48223/pf0000042225)** | — |
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Introduction to African Studies  | Establishes the interdisciplinary nature of the field, key debates, and Africa's global significance. | [*Africa: A Modern History* by Guy Arnold](https://www.amazon.com/Africa-Modern-History-Guy-Arnold/dp/1786490366) | [African Development – from the Past to the Present](https://www.coursera.org/learn/african-development--from-the-past-to-the-present) |
-| Geography and Peoples of Africa  | Provides physical, human, and cultural geography to contextualize historical and social developments. | [*Africa: Its Peoples and Their Culture History* by George Peter Murdock](https://archive.org/details/africaitspeoples0000murd) | [Geography Now! Africa Series](https://www.youtube.com/playlist?list=PLR7XO54Pktt9dN240Qdipsc34skwuoaiM) |
-| Basic African Language I         | Builds foundational communication skills for primary sources and cultural immersion. | Language-specific textbook (e.g., for Swahili) | [Learn Swahili with Patricia (YouTube Series)](https://www.youtube.com/c/LEARNSWAHILIWITHPATRICIA) |
+## II. Historical Africa
 
-## Core African Studies
+| Subject | Book / Text | Online Resource |
+| --- | --- | --- |
+| Early States & Trade Networks | **[UNESCO GHA Vol. 3–4](https://unesdoc.unesco.org/ark:/48223/pf0000184287)** (Free full PDFs from UNESCO) | **[Met Museum Heilbrunn African timelines](https://www.metmuseum.org/toah/ht/chronology.html?region=afa)** (Interactive timelines & art) |
+| Slavery (African + Global) | — | **[Slave Voyages](https://www.slavevoyages.org/)** + **[UNESCO Slave Route](https://en.unesco.org/themes/fostering-rights-inclusion/slave-route)** |
+| European Imperialism | **[UNESCO GHA Vol. 6](https://unesdoc.unesco.org/ark:/48223/pf0000184287)** | **[Yale “African Colonial History” lectures](https://oyc.yale.edu/african-american-studies/afam-162)** (Open Yale Courses) |
+| Resistance & Decolonization | **[UNESCO GHA Vol. 7](https://unesdoc.unesco.org/ark:/48223/pf0000184287)** | **[LSE Africa decolonization lectures](https://www.lse.ac.uk/africa/decolonisation-hub/Decolonisation-resources)** (Video & resources) |
+| Cold War Africa | — | **[Wilson Center Africa Cold War archive](https://digitalarchive.wilsoncenter.org/)** (Declassified documents) |
+| Contemporary African States | **[UNESCO GHA Vol. 8](https://unesdoc.unesco.org/ark:/48223/pf0000184287)** | **[Africa Center, Johns Hopkins](https://krieger.jhu.edu/africana/)** (Research & contemporary studies) |
 
-These form the backbone, progressing chronologically and thematically. Prerequisites: Completion of Intro phase.
+## III. Political & Economic Systems
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Pre-Colonial African History          | Explores societies, kingdoms, trade, and cultures before European intervention. | [*Precolonial Black Africa* by Cheikh Anta Diop](https://archive.org/details/PrecolonialBlackAfrica) | Covered in African Development – from the Past to the Present |
-| Colonialism and Imperialism in Africa | Examines European conquest, administration, resistance, and impacts.       | [*Africa Since 1940: The Past of the Present* by Frederick Cooper](https://www.amazon.com/Africa-Since-1940-Present-Approaches/dp/1108727891) | [Africana Studies Collection (MIT OCW)](https://ocw.mit.edu/collections/africana-studies/) |
-| Post-Colonial Africa: Independence and Nation-Building | Covers decolonization, early state formation, and challenges of sovereignty. | [*Decolonization and African Society* by Frederick Cooper](https://www.amazon.com/Decolonization-African-Society-Question-Studies/dp/0521566002) | Covered in African Development – from the Past to the Present |
-| African Political Systems and Governance | Analyzes traditional, colonial, and modern political structures and issues. | [*African Politics in Comparative Perspective* by Goran Hyden](https://www.amazon.com/African-Politics-Comparative-Perspective-Hyden/dp/1107030471) | [Democracy and Development: Perspectives from Africa (MIT OCW)](https://ocw.mit.edu/courses/17-196-globalization-fall-2005/) (related) |
-| African Economies and Development     | Surveys pre-colonial trade, colonial extraction, and post-independence strategies. | [*An Economic History of Tropical Africa* by Z.A. Konczacki and J.M. Konczacki](https://www.amazon.com/Economic-History-Tropical-Africa-Pre-Colonial/dp/1138968240) | [African Development – from the Past to the Present](https://www.coursera.org/learn/african-development--from-the-past-to-the-present) |
-| African Cultures and Societies        | Introduces anthropology, social structures, kinship, and everyday life.    | [*Africa: The Politics of Suffering and Smiling* by Patrick Chabal](https://www.amazon.com/Africa-Politics-Suffering-Political-Theories/dp/1842779095) | [Anthropology: Understanding Societies and Cultures](https://www.futurelearn.com/courses/cultures-societies-introducing-anthropology) |
-| African Literatures and Oral Traditions | Explores storytelling, poetry, and written works as cultural expressions.  | [*The African Imagination: Literature in Africa and the Black Diaspora* by F. Abiola Irele](https://www.amazon.com/African-Imagination-Literature-Black-Diaspora/dp/019508619X) | [Oral Literature in Africa (Open Access Book and Related Lectures)](https://library.oapen.org/bitstream/handle/20.500.12657/30658/633751.pdf) |
-| Basic African Language II             | Advances proficiency for reading texts and understanding media.            | Continuation of Language I textbook | Continuation of Basic African Language I resources |
+| Subject | Book / Text | Online Resource |
+| --- | --- | --- |
+| African Political Systems | — | **[MIT OCW – Democracy & Development in Africa](https://ocw.mit.edu/courses/14-75-political-economy-and-economic-development-fall-2012/)** |
+| Development & Dependency | — | **[Coursera – African Development](https://www.coursera.org/learn/african-development--from-the-past-to-the-present)** |
+| Political Economy of Africa | — | — |
+| Globalization & Trade | — | **[UNCTAD Africa reports](https://unctad.org/topic/africa/economic-development-in-africa-report)** (Annual free reports) |
 
-## Advanced African Studies
+## IV. Society, Culture, and Thought
 
-### History and Politics
+| Subject | Book / Text | Online Resource |
+| --- | --- | --- |
+| Religion & Philosophy | **[Mbiti (Archive.org)](https://archive.org/details/africanreligions00john)** | — |
+| Gender & Feminism | — | **[African Feminist Forum resources](http://www.africanfeministforum.com/)** (Official site & Charter) |
+| Kinship & Social Life | — | **[Open University – African anthropology](https://www.open.edu/openlearn/history-the-arts/religious-studies/anthropology-religion-racist)** (Free course units) |
+| Urban Africa | — | **[UN-Habitat Africa](https://unhabitat.org/africa-region)** (Urban reports & data) |
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| African Diaspora and Pan-Africanism  | Examines migrations, connections to Americas/Caribbean, and unity movements. | [*The African Diaspora* by Isidore Okpewho](https://www.amazon.com/African-Diaspora-Origins-World-Identities/dp/0253214947) | [Black Matters: Introduction to Black Studies (MIT OCW)](https://ocw.mit.edu/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/) |
-| Contemporary African Conflicts and Peacebuilding | Analyzes post-Cold War issues, civil wars, and resolution efforts.         | [*Africa in World Politics* by John W. Harbeson and Donald Rothchild](https://www.amazon.com/Africa-World-Politics-Constructing-Political/dp/081335028X) | [International Conflict Resolution (POTI)](https://www.peaceopstraining.org/courses/picr-english-2020/) |
-| Gender and Feminism in Africa        | Explores women's roles, movements, and gender dynamics historically and today. | [*African Women: A Modern History* by Catherine Coquery-Vidrovitch](https://www.amazon.com/African-Women-Modern-History-Coquery-Vidrovitch/dp/0813323614) |  |
+## V. Literature, Arts, and Expression
 
-### Culture, Literature, and Arts
+| Subject | Book / Text | Online Resource |
+| --- | --- | --- |
+| Oral Traditions | **[Open Access Oral Literature in Africa](https://www.openbookpublishers.com/books/10.11647/obp.0025)** (Free PDF & eBook) | **[OAPEN + Cambridge African Orature](https://www.openbookpublishers.com/books/10.11647/obp.0025)** (Full open-access edition) |
+| Modern African Literature | — | **[Yale African literature lectures](https://oyc.yale.edu/african-american-studies/afam-162)** (Open Yale Courses) |
+| Visual Arts | — | **[Smarthistory Africa](https://smarthistory.org/reframing-art-history/arts-africa-1700-2000/)** (Free educational articles & videos) |
+| Music & Performance | — | **[MIT OCW Music of Africa](https://ocw.mit.edu/courses/21m-293-music-of-africa-fall-2005/)** |
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| African Arts and Visual Cultures     | Studies sculpture, architecture, textiles, and modern art.                 | [*African Art and Agency in the Workshop* edited by Sidney Littlefield Kasfir](https://iupress.org/9780253007490/african-art-and-agency-in-the-workshop/) | [African Art Lectures (Smarthistory)](https://smarthistory.org/reframing-art-history/arts-africa-1700-2000/) |
-| African Music and Performance        | Covers traditional, popular, and diasporic musical traditions.             | [*Music of Africa* (MIT OCW Resources)](https://ocw.mit.edu/courses/21m-293-music-of-africa-fall-2005/) | [Music of Africa (MIT OCW)](https://ocw.mit.edu/courses/21m-293-music-of-africa-fall-2005/) |
-| Religion and Philosophy in Africa    | Examines indigenous beliefs, Islam, Christianity, and syncretism.          | [*African Religions and Philosophy* by John S. Mbiti](https://archive.org/details/africanreligions00john) |  |
+## VI. Africa and the African Diaspora
 
-### Development, Society, and Environment
+| Subject | Book / Text | Online Resource |
+| --- | --- | --- |
+| Pan-Africanism | — | **[Black Past Pan-Africanism archive](https://www.panafricandata.org/en/)** (Essays & timelines) |
+| Atlantic & Caribbean Africa | — | **[Harvard Hutchins African Diaspora](https://hutchinscenter.fas.harvard.edu/central-africa-diaspora-americas-project)** (Research projects & resources) |
+| Modern Global Black Identity | — | **[MIT OCW Black Matters](https://ocw.mit.edu/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/)** |
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Environment and Climate in Africa    | Addresses ecology, conservation, and human-environment interactions.        | [*Conservation Biology in Sub-Saharan Africa* (Open Access)](https://openbookpublishers.com/books/10.11647/obp.0177) | [Climate Adaptation in Africa](https://www.coursera.org/learn/climate-adaptation) |
-| Health, Society, and Public Policy in Africa | Explores epidemics, healthcare systems, and policy responses.              | [*Global Health Policy* (Related Resources)](https://www.coursera.org/learn/global-health-policy) | [Global Health Policy](https://www.coursera.org/learn/global-health-policy) |
-| Globalization and Africa in the World Economy | Analyzes trade, aid, debt, and integration into global systems.            | Covered in African Development – from the Past to the Present | Covered in African Development – from the Past to the Present |
+## VII. Health, Environment, and Future Africa
 
-## Capstone
-
-Use resources from above for independent research.
+| Subject | Book / Text | Online Resource |
+| --- | --- | --- |
+| Environment & Climate | **[OpenBookPublishers – Conservation Biology](https://www.openbookpublishers.com/books/10.11647/obp.0177)** | **[Coursera – Climate Adaptation in Africa](https://www.coursera.org/learn/climate-adaptation)** |
+| Public Health | — | **[WHO Africa open reports](https://www.afro.who.int/publications/atlas-african-health-statistics-2022-health-situation-analysis-who-african-region-1)** (Annual health statistics & reports) |
+| Population & Migration | — | **[World Bank Africa data portal](https://data.worldbank.org/country/africa)** (Population & migration datasets) |
 
 ## Congratulations
 
