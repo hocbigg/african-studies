@@ -32,4 +32,4 @@ Or, if you are struggling in one of the courses, perhaps reading a book on the s
 
 | Name | Author(s) |
 | --- | --- |
-| [How Europe Underdeveloped Africa](https://archive.org/details/how-europe-underdeveloped-africa-walter-rodney) (free PDF) | Walter Rodney |
+| [How Europe Underdeveloped Africa](https://archive.org/details/how-europe-underdeveloped-africa-walter-rodney) | Walter Rodney |
