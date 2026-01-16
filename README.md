@@ -4,11 +4,7 @@
 <p>
 Path to a free self-taught education in African Studies!
 </p>
-<p>
-<a href="https://github.com/hocbigg/african-studies">
-<img alt="Hocbigg" src="/images/view_on_github.svg"
-></a>
-</p>
+
 </div>
 
 # Contents
@@ -25,9 +21,9 @@ The African Studies curriculum is a complete education in African Studies using 
 The program emphasizes interdisciplinary approaches, covering the African continent's histories, cultures, societies, politics, and global connections, including diaspora elements where relevant to continental dynamics.
 
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
+they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
 
-[How to contribute](/CONTRIBUTING.html)
+**[How to contribute](/CONTRIBUTING.html)**
 
 # Communities
 
