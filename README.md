@@ -1,11 +1,7 @@
-<div align="center" style="text-align: center">
-<img src="/images/logo.png" alt=""/>
-<h3>Hocbigg - African Studies</h3>
-<p>
-Path to a free self-taught education in African Studies!
-</p>
-
-</div>
+---
+title: Hocbigg - African Studies
+description: Path to a free self-taught education in African Studies!
+---
 
 # Contents
 
@@ -30,9 +26,7 @@ This repository is organized into three main components:
 - **Core Curriculum** (this page): the foundational knowledge of the field;
 - **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
 
-## Process
-
-Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
+**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
 
 - For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
 - The Core Curriculum provides a shared foundation and is intended to be completed in full.
