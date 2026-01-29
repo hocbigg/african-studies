@@ -12,7 +12,7 @@ description: Path to a free self-taught education in African Studies!
 
 # Summary
 
-The African Studies curriculum is a comprehensive education in African Studies, designed for self-directed study using online materials.
+The **African Studies** curriculum is a comprehensive education in African Studies, designed for self-directed study using online materials.
 
 The program emphasizes interdisciplinary approaches, covering the African continent's histories, cultures, societies, politics, and global connections, including diaspora elements where relevant to continental dynamics.
 
@@ -44,7 +44,7 @@ This repository is organized into three main components:
 
 # Curriculum
 
-## I. Foundations of Africa
+## Foundations of Africa
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |
@@ -55,7 +55,7 @@ This repository is organized into three main components:
 | African Language Families | It shows how languages connect different groups, reveal past migrations, and carry unique ways of thinking and storytelling. | — | — |
 | African Historiography | You learn how historians use oral stories, archaeology, and other sources to build accurate pictures of Africa's past beyond written records. | [UNESCO GHA Vol. 1](https://unesdoc.unesco.org/ark:/48223/pf0000042225) | — |
 
-## II. Historical Africa
+## Historical Africa
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |
@@ -66,7 +66,7 @@ This repository is organized into three main components:
 | Cold War Africa | It reveals how global superpower rivalries shaped African politics, wars, and development choices during the 20th century. | — | [Wilson Center Africa Cold War archive](https://digitalarchive.wilsoncenter.org/) (Declassified documents) |
 | Contemporary African States | You gain knowledge of how modern African countries formed, govern themselves, and face current challenges after independence. | [UNESCO GHA Vol. 8](https://unesdoc.unesco.org/ark:/48223/pf0000184287) | [Africa Center, Johns Hopkins](https://krieger.jhu.edu/africana/) (Research & contemporary studies) |
 
-## III. Political & Economic Systems
+## Political & Economic Systems
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ This repository is organized into three main components:
 | Political Economy of Africa | It helps you see how politics and money interact to shape wealth, poverty, and power distribution across the continent. | — | — |
 | Globalization & Trade | You understand how global markets and trade rules affect African economies, jobs, and connections to the world today. | — | [UNCTAD Africa reports](https://unctad.org/topic/africa/economic-development-in-africa-report) (Annual free reports) |
 
-## IV. Society, Culture, and Thought
+## Society, Culture, and Thought
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |

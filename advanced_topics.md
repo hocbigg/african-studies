@@ -8,7 +8,7 @@ The remaining sections are Specialization Tracks:
 
 These do not need to be studied in any fixed order. They assume you have completed the Core, but they do not depend on one another. You may study one, several, or all of them.
 
-## V. Literature, Arts, and Expression
+## Literature, Arts, and Expression
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |
@@ -17,7 +17,7 @@ These do not need to be studied in any fixed order. They assume you have complet
 | Visual Arts | It helps you appreciate sculptures, paintings, and crafts that tell stories about beliefs, history, and creativity. | — | [Smarthistory Africa](https://smarthistory.org/reframing-art-history/arts-africa-1700-2000/) (Free educational articles & videos) |
 | Music & Performance | You learn how rhythms, songs, and dances build community, express emotions, and pass on cultural knowledge. | — | [MIT OCW Music of Africa](https://ocw.mit.edu/courses/21m-293-music-of-africa-fall-2005/) |
 
-## VI. Africa and the African Diaspora
+## Africa and the African Diaspora
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |
@@ -25,7 +25,7 @@ These do not need to be studied in any fixed order. They assume you have complet
 | Atlantic & Caribbean Africa | You understand how the slave trade created African-descended communities in the Americas with lasting cultural influences. | — | [Harvard Hutchins African Diaspora](https://hutchinscenter.fas.harvard.edu/central-africa-diaspora-americas-project) (Research projects & resources) |
 | Modern Global Black Identity | It explores how people of African heritage today build shared identities across countries through culture and history. | — | [MIT OCW Black Matters](https://ocw.mit.edu/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/) |
 
-## VII. Health, Environment, and Future Africa
+## Health, Environment, and Future Africa
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |
