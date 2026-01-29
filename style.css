@@ -80,3 +80,9 @@ th {
   text-align: center;
   margin-bottom: 2rem;
 }
+
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
