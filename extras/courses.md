@@ -1,34 +1,13 @@
 # Extra Courses
 
-This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.
-
-## History and Politics
-
-| Courses | Duration | Effort |
-| --- | --- | --- |
-| [Archaeology and Heritage of Africa (Coursera)](https://www.coursera.org/learn/archaeology-heritage-africa) | 4 weeks | 3–5 hours/week |
-| [Climate Adaptation in Africa (Coursera/University of Cape Town)](https://www.coursera.org/learn/climate-adaptation) | 4 weeks | 2–4 hours/week |
-| [AFAM 162: African American History: From Emancipation to the Present (Open Yale Courses)](https://oyc.yale.edu/african-american-studies/afam-162) | 25 lectures | Self-paced |
-
-## Culture, Literature, and Arts
-
-| Courses | Duration | Effort |
-| --- | --- | --- |
-| [21M.293: Music of Africa (MIT OpenCourseWare)](https://ocw.mit.edu/courses/21m-293-music-of-africa-fall-2005/) | Full semester | Self-paced |
-| [African American History Lecture Series (Stanford YouTube)](https://www.youtube.com/playlist?list=PL848F5B95B8F4EBD2) | Varies | Self-paced |
-
-## Development and Society
-
-| Courses | Duration | Effort |
-| --- | --- | --- |
-| [Global Health Policy (Coursera)](https://www.coursera.org/learn/global-health-policy) | 6 weeks | 2–3 hours/week |
-
-## Online Learning - Great Courses
-
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
-[Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
-[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
+| Resource | Creator / Platform | Format | Why It's Worth Exploring |
+| --- | --- | --- | --- |
+| [*Africa's Great Civilizations*](https://www.pbs.org/show/africas-great-civilizations/) | Henry Louis Gates, Jr. / PBS | Video Documentary Series | A six-hour visual journey spanning two hundred thousand years, documenting ancient empires, technological achievements, and intellectual centers across the continent. |
+| *Africa: A Voyage of Discovery* | Basil Davidson / Channel 4 & RM Arts | Video Documentary Series | The pioneering eight-part masterwork that challenged colonial historiography and visually chronicled African social organization, art, and state-building. |
+| [*Arts of Africa (Smarthistory)*](https://smarthistory.org/reframing-art-history/arts-africa-1700-2000/) | Smarthistory / Open Art History | Video Series & Visual Essays | Short, high-resolution visual analyses of African sculpture, architecture, textiles, and masquerades contextualized by art historians and curators. |
+| *Africa's Past: From Prehistory to Modern Times* | Benjamin N. Lawrance / Wondrium | Video Lecture Series | A comprehensive 24-lecture visual survey focusing on environmental history, trade routes, religious transformations, and anti-colonial resistance. |
+| [*African Development: From the Past to the Present*](https://www.coursera.org/learn/african-development--from-the-past-to-the-present) | Lund University / Coursera | MOOC | Provides an economic history perspective on long-term development patterns, agrarian transitions, colonial extraction, and contemporary economic growth. |
+| [*Climate Adaptation in Africa*](https://www.coursera.org/learn/climate-adaptation) | University of Cape Town (UCT) / Coursera | MOOC | Explores climate vulnerabilities, ecosystem-based adaptation, and policy frameworks tailored to sub-Saharan African environments and livelihoods. |
+| [*Archaeology and Heritage of Africa*](https://www.coursera.org/learn/archaeology-heritage-africa) | University of Cambridge / Coursera | MOOC | Introduces the methodologies of African archaeological discovery, rock art conservation, and the politics of cultural heritage management. |
+| [*Music of Africa (Course 21M.293)*](https://ocw.mit.edu/courses/21m-293-music-of-africa-fall-2005/) | MIT OpenCourseWare | Open Courseware / Audio Lectures | A deep ethnomusicological exploration of polyrhythms, vocal traditions, ceremonial instruments, and modern African popular music genres. |
+| [*Extractive Industries and Sustainable Development in Africa*](https://www.edx.org/) | SDG Academy / edX | MOOC | Analyzes the governance, legal frameworks, environmental impacts, and economic revenue models surrounding oil, gas, and mining across the continent. |

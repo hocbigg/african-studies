@@ -37,10 +37,12 @@ This repository is organized into three main components:
 # Communities
 
 - Subreddits: [r/AfricanaStudies](https://www.reddit.com/r/AfricanaStudies/)
+
 - You can also interact through [GitHub issues](https://github.com/hocbigg/african-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
+
+- Join our Discord server (for discussions around this and other curricula):
+
+  [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
 # Curriculum
 
@@ -48,41 +50,38 @@ This repository is organized into three main components:
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |
-| What Is African Studies? | It helps you understand how scholars from different fields examine Africa's past, people, and cultures using many methods and sources. | [UNESCO – General History of Africa, Vol. 1 (Methodology & Prehistory)](https://unesdoc.unesco.org/ark:/48223/pf0000042225) | [UNESCO GHA Portal](https://www.unesco.org/en/general-history-africa) |
-| African Geography & Ecology | You learn how Africa's diverse landscapes, climates, and ecosystems shape where and how people live, farm, and adapt to their surroundings. | [UNESCO GHA Vol. 1 (Environment chapters)](https://unesdoc.unesco.org/ark:/48223/pf0000042225) | [National Geographic Africa](https://education.nationalgeographic.org/resource/africa-physical-geography/) (Educational overview & maps) |
-| Human Origins & Archaeology | It reveals that modern humans first evolved in Africa and shows how ancient tools and fossils help us trace our shared human beginnings. | — | [Smithsonian Human Origins (Africa sections)](https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens) |
-| African Peoples & Migration | You discover how ancient population movements spread skills, languages, and cultures across the continent over thousands of years. | [UNESCO GHA Vol. 2](https://unesdoc.unesco.org/ark:/48223/pf0000184287) | [British Museum – “Ancient Africa”](https://www.britishmuseum.org/collection/africa) (Virtual galleries & exhibits) |
-| African Language Families | It shows how languages connect different groups, reveal past migrations, and carry unique ways of thinking and storytelling. | — | — |
-| African Historiography | You learn how historians use oral stories, archaeology, and other sources to build accurate pictures of Africa's past beyond written records. | [UNESCO GHA Vol. 1](https://unesdoc.unesco.org/ark:/48223/pf0000042225) | — |
+| Scope & Epistemologies of African Studies | It introduces how the multidisciplinary field evolved to study Africa on its own terms, critique colonial tropes, and center African agency and knowledge systems. | Vincent B. Khapoya, *The African Experience: An Introduction* (Routledge) | [UNESCO – General History of Africa Portal](https://www.unesco.org/en/general-history-africa) (Overview & collection access) |
+| African Historiography & Sources | You learn how scholars reconstruct Africa's past using oral traditions, archaeology, linguistics, and archival critiques, challenging Eurocentric written biases. | Jan Vansina, *Oral Tradition as History* (University of Wisconsin Press) | [UNESCO GHA Vol. 1: Methodology & Prehistory](https://unesdoc.unesco.org/ark:/48223/pf0000042225) (Full open-access text) |
+| African Geography & Ecology | You learn how Africa's distinct topographies, climate zones, river systems, and ecosystems have shaped human settlement, agriculture, and adaptations over millennia. | Robert Stock, *Africa South of the Sahara: A Geographical Interpretation* (Guilford Press) | [National Geographic Education: Africa Physical Geography](https://education.nationalgeographic.org/resource/africa-physical-geography/) |
+| Human Origins & African Prehistory | It examines the fossil and archaeological record demonstrating Africa as the evolutionary birthplace of *Homo sapiens* and early technological innovation. | Peter Mitchell & Paul Lane (eds.), *The Oxford Handbook of African Archaeology* (Oxford University Press) | [Smithsonian Human Origins Program](https://humanorigins.si.edu/) (Fossil database & evidence) |
+| African Languages, Peoples & Historical Migrations | You discover how the four major language phyla evolved and how demographic movements—such as the Bantu expansions—spread technologies and cultures across the continent. | Bernd Heine & Derek Nurse (eds.), *African Languages: An Introduction* (Cambridge University Press) | [British Museum: Africa Collection](https://www.britishmuseum.org/collection/africa) (Material culture & regional galleries) |
 
 ## Historical Africa
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |
-| Early States & Trade Networks | It explains how ancient African kingdoms grew wealthy and powerful by controlling long-distance trade in goods like gold and salt. | [UNESCO GHA Vol. 3–4](https://unesdoc.unesco.org/ark:/48223/pf0000184287) (Free full PDFs from UNESCO) | [Met Museum Heilbrunn African timelines](https://www.metmuseum.org/essays/timeline-of-art-history) (Interactive timelines & art) |
-| Slavery (African + Global) | You understand the long history of slavery within Africa and its later connection to the global slave trade that affected millions. | — | [Slave Voyages](https://www.slavevoyages.org/) + [UNESCO Slave Route](https://en.unesco.org/themes/fostering-rights-inclusion/slave-route) |
-| European Imperialism | It shows how European powers took control of African lands and resources, changing societies and economies for generations. | [UNESCO GHA Vol. 6](https://unesdoc.unesco.org/ark:/48223/pf0000184287) | [Yale “African Colonial History” lectures](https://oyc.yale.edu/african-american-studies/afam-162) (Open Yale Courses) |
-| Resistance & Decolonization | You see how African people fought against colonial rule and built independent nations through organized movements and leaders. | [UNESCO GHA Vol. 7](https://unesdoc.unesco.org/ark:/48223/pf0000184287) | [LSE Africa decolonization lectures](https://www.lse.ac.uk/africa/decolonisation-hub/Decolonisation-resources) (Video & resources) |
-| Cold War Africa | It reveals how global superpower rivalries shaped African politics, wars, and development choices during the 20th century. | — | [Wilson Center Africa Cold War archive](https://digitalarchive.wilsoncenter.org/) (Declassified documents) |
-| Contemporary African States | You gain knowledge of how modern African countries formed, govern themselves, and face current challenges after independence. | [UNESCO GHA Vol. 8](https://unesdoc.unesco.org/ark:/48223/pf0000184287) | [Africa Center, Johns Hopkins](https://krieger.jhu.edu/africana/) (Research & contemporary studies) |
+| Early Civilizations, States & Trans-Regional Trade | It explores the rise of ancient and medieval African kingdoms (e.g., Aksum, Nubia, Mali, Great Zimbabwe, Swahili Coast) and their integration into global trade networks. | Kevin Shillington, *History of Africa* (Palgrave Macmillan / Bloomsbury) | [Met Museum: Heilbrunn Timeline of African Art History](https://www.metmuseum.org/toah/) (Chronological art & historical essays) |
+| Slavery, Slave Trades & African Diasporas | You understand the systems of domestic slavery within Africa and the catastrophic demographic, social, and economic impacts of the Trans-Saharan, Indian Ocean, and Trans-Atlantic slave trades. | Paul E. Lovejoy, *Transformations in Slavery: A History of Slavery in Africa* (Cambridge University Press) | [Slave Voyages Database](https://www.slavevoyages.org/) & [UNESCO Routes of Enslaved Peoples](https://www.unesco.org/en/routes-enslaved-peoples) |
+| European Imperialism & Colonial Rule (1884–1960) | It investigates the Scramble for Africa, colonial administrative strategies (direct vs. indirect rule), economic extraction, and their lasting societal disruptions. | A. Adu Boahen, *African Perspectives on Colonialism* (Johns Hopkins University Press) | [Internet African History Sourcebook: Colonial Africa](https://sourcebooks.fordham.edu/africa/africasbook.asp) (Primary source documents) |
+| African Resistance, Nationalisms & Decolonization | You analyze the political, intellectual, and armed liberation struggles through which African peoples resisted foreign rule, organized Pan-African movements, and gained sovereignty. | Frantz Fanon, *The Wretched of the Earth* (Grove Press) & Frederick Cooper, *Africa since 1940* (Cambridge University Press) | [Wilson Center Digital Archive: Decolonization & Cold War](https://digitalarchive.wilsoncenter.org/) (Declassified archival records) |
+| Post-Independence Politics & Contemporary State Formation | You evaluate the critical trajectories of postcolonial nation-building, early institutional crises, Cold War proxy interventions, military coups, and subsequent democratic transitions. | Martin Meredith, *The State of Africa: A History of the Continent Since Independence* (Simon & Schuster) | [African Union (AU) Official Portal](https://au.int/) (Treaties, summit decisions, & continental history) |
 
 ## Political & Economic Systems
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |
-| African Political Systems | It teaches how traditional and modern governments organize power, make decisions, and maintain order in African societies. | — | [MIT OCW – Democracy & Development in Africa](https://ocw.mit.edu/courses/14-75-political-economy-and-economic-development-fall-2012/) |
-| Development & Dependency | You learn why some African economies struggle and how historical patterns create ongoing reliance on outside countries or resources. | — | [Coursera – African Development](https://www.coursera.org/learn/african-development--from-the-past-to-the-present) |
-| Political Economy of Africa | It helps you see how politics and money interact to shape wealth, poverty, and power distribution across the continent. | — | — |
-| Globalization & Trade | You understand how global markets and trade rules affect African economies, jobs, and connections to the world today. | — | [UNCTAD Africa reports](https://unctad.org/topic/africa/economic-development-in-africa-report) (Annual free reports) |
+| African Political Systems & Governance | It examines how state power, political institutions, traditional authorities, civil societies, and electoral systems operate across modern African nations. | Alex Thomson, *An Introduction to African Politics* (Routledge) | [Mo Ibrahim Foundation: Ibrahim Index of African Governance](https://mo.ibrahim.foundation/iiag) (Data & governance metrics) |
+| Political Economy of African Development | You analyze the structural drivers of African economies, including agrarian systems, resource extraction, Structural Adjustment Programs (SAPs), debt, and industrialization policies. | Morten Jerven, *Poor Numbers: How We Are Misled by African Development Statistics* (Cornell University Press) | [UNCTAD: Economic Development in Africa Reports](https://unctad.org/topic/africa/economic-development-in-africa-report) (Annual economic analyses) |
+| Regional Integration, Globalization & International Relations | It assesses Africa's changing role in international geopolitics, South-South partnerships, Regional Economic Communities (RECs), and the African Continental Free Trade Area (AfCFTA). | Peter J. Schraeder, "African International Relations" in *Understanding Contemporary Africa* (Lynne Rienner) | [African Development Bank (AfDB): Knowledge Hub](https://www.afdb.org/en/knowledge) (Regional integration reports & data) |
 
 ## Society, Culture, and Thought
 
 | Subject | Why study? | Book / Text | Online Resource |
 | --- | --- | --- | --- |
-| Religion & Philosophy | It explores how African beliefs and ideas about life, community, and the world guide daily behavior and values. | [Mbiti](https://archive.org/details/africanreligions00john) | — |
-| Gender & Feminism | You learn about women's roles, rights, and movements for equality in African societies past and present. | — | [African Feminist Forum resources](http://www.africanfeministforum.com/) (Official site & Charter) |
-| Kinship & Social Life | It shows how family ties, marriage, and community structures organize relationships and support in African cultures. | — | [Open University – African anthropology](https://www.open.edu/openlearn/history-the-arts/religious-studies/anthropology-religion-racist) (Free course units) |
-| Urban Africa | You discover how fast-growing cities change living conditions, work, and social life for millions of people. | — | [UN-Habitat Africa](https://unhabitat.org/africa-region) (Urban reports & data) |
+| African Religions & Philosophies | It explores African Indigenous Religions, the deep history of African Christianity and Islam, and philosophical systems emphasizing communal relationality (e.g., Ubuntu). | John S. Mbiti, *African Religions and Philosophy* (Heinemann / Waveland Press) | [Harvard Pluralism Project: African Traditional Religions](https://pluralism.org/traditional-african-religions) (Introductory overviews & essays) |
+| African Literature, Orature & Expressive Arts | You study oral storytelling traditions alongside classic and contemporary African literature, visual arts, and performance traditions that express African social realities. | Chinua Achebe, *Things Fall Apart* (Anchor) & Ngũgĩ wa Thiong'o, *Decolonising the Mind* (Heinemann) | [Smithsonian National Museum of African Art](https://africa.si.edu/) (Digital collections, exhibitions, & educational guides) |
+| Kinship, Gender & African Feminisms | You investigate lineage and family systems, matrimonial dynamics, historical gender roles, and the distinct contributions of African feminist and womanist thought. | Oyèrónkẹ́ Oyěwùmí (ed.), *African Gender Studies: A Reader* (Palgrave Macmillan) | [African Feminist Forum](https://www.africanfeministforum.com/) (Feminist Charter, theory, & policy briefs) |
+| Urbanization, Youth Culture & Social Change | It examines the rapid growth of African megacities, dynamic informal economies, youth demographics, digital technological adaptations (e.g., mobile money), and popular culture. | AbdouMaliq Simone & Edgar Pieterse, *New Urban Worlds: Inhabiting Urban Sub-Saharan Africa* (Polity Press) | [UN-Habitat: State of African Cities Reports](https://unhabitat.org/) (Urban development profiles & trends) |
 
 # Code of conduct
 
