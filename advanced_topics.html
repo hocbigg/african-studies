@@ -1,147 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/african-studies/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics in African Studies</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/african-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/african-studies/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics in African Studies">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/african-studies/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/african-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/african-studies/">African-Studies</a>
-<a href="/african-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/african-studies/extras/courses.html">Extra Courses</a>
-<a href="/african-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/african-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/african-studies/">African Studies</a></li>
+      <li><a href="/african-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/african-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/african-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/african-studies/resources.html">Resources</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="advanced-topics">Advanced Topics</h1>
-<p>The remaining sections are Specialization Tracks:</p>
+  <main id="main-content">
+    <article>
+
+<h1 id="advanced-topics-in-african-studies">Advanced Topics in African Studies</h1>
+<p>This section outlines four advanced specialization tracks for self-directed learners who have mastered the core undergraduate curriculum. These tracks provide specialized research methodologies, advanced theoretical frameworks, and applied policy analyses across the major contemporary subfields of African Studies.</p>
 <ul>
-<li>Literature, Arts, and Expression</li>
-<li>Africa and the African Diaspora</li>
-<li>Health, Environment, and Future Africa</li>
+<li><strong>Critical Historiography, Archives, and Global Diasporas:</strong> Explores advanced archival deconstruction, transoceanic forced migrations, Pan-African liberation theory, and indigenous epistemologies.</li>
+<li><strong>Literary Theory, Performance, and Screen Cultures:</strong> Analyzes postcolonial poetics, oral literature and performance aesthetics, screen media ecosystems, and African feminist and queer cultural theory.</li>
+<li><strong>Political Economy, Governance, and Conflict Transformation:</strong> Investigates territorial state consolidation, agrarian and land tenure transformations, regional economic integration, and the micro-dynamics of conflict systems.</li>
+<li><strong>Environment, Critical Health, and Science &amp; Technology Studies (African STS):</strong> Evaluates political ecology and fortress conservation, critical global health and biomedical governance, grassroots technoscience innovation, and urban infrastructural dynamics.</li>
 </ul>
-<p>These do not need to be studied in any fixed order. They assume you have completed the Core, but they do not depend on one another. You may study one, several, or all of them.</p>
-<h2 id="literature-arts-and-expression">Literature, Arts, and Expression</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book / Text</th>
-<th>Online Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Oral Traditions</td>
-<td>It teaches how spoken stories, proverbs, and songs preserve history, morals, and knowledge across generations.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.openbookpublishers.com/books/10.11647/obp.0025">Open Access Oral Literature in Africa</a> (Free PDF &amp; eBook)</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.openbookpublishers.com/books/10.11647/obp.0025">OAPEN + Cambridge African Orature</a> (Full open-access edition)</td>
-</tr>
-<tr>
-<td>Modern African Literature</td>
-<td>You explore how novels, poems, and stories express African experiences, identities, and responses to change.</td>
-<td>—</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://oyc.yale.edu/african-american-studies/afam-162">Yale African literature lectures</a> (Open Yale Courses)</td>
-</tr>
-<tr>
-<td>Visual Arts</td>
-<td>It helps you appreciate sculptures, paintings, and crafts that tell stories about beliefs, history, and creativity.</td>
-<td>—</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://smarthistory.org/reframing-art-history/arts-africa-1700-2000/">Smarthistory Africa</a> (Free educational articles &amp; videos)</td>
-</tr>
-<tr>
-<td>Music &amp; Performance</td>
-<td>You learn how rhythms, songs, and dances build community, express emotions, and pass on cultural knowledge.</td>
-<td>—</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/21m-293-music-of-africa-fall-2005/">MIT OCW Music of Africa</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="africa-and-the-african-diaspora">Africa and the African Diaspora</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book / Text</th>
-<th>Online Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Pan-Africanism</td>
-<td>It shows how ideas of unity and shared identity connect people of African descent worldwide to fight for rights and pride.</td>
-<td>—</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.panafricandata.org/en/">Black Past Pan-Africanism archive</a> (Essays &amp; timelines)</td>
-</tr>
-<tr>
-<td>Atlantic &amp; Caribbean Africa</td>
-<td>You understand how the slave trade created African-descended communities in the Americas with lasting cultural influences.</td>
-<td>—</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://hutchinscenter.fas.harvard.edu/central-africa-diaspora-americas-project">Harvard Hutchins African Diaspora</a> (Research projects &amp; resources)</td>
-</tr>
-<tr>
-<td>Modern Global Black Identity</td>
-<td>It explores how people of African heritage today build shared identities across countries through culture and history.</td>
-<td>—</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/24-912-black-matters-introduction-to-black-studies-spring-2017/">MIT OCW Black Matters</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="health-environment-and-future-africa">Health, Environment, and Future Africa</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book / Text</th>
-<th>Online Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Environment &amp; Climate</td>
-<td>You learn how climate change and conservation affect Africa's land, animals, and people's ways of living now and in the future.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.openbookpublishers.com/books/10.11647/obp.0177">OpenBookPublishers – Conservation Biology</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/climate-adaptation">Coursera – Climate Adaptation in Africa</a></td>
-</tr>
-<tr>
-<td>Public Health</td>
-<td>It helps you see the causes of diseases and how health systems work to protect communities across the continent.</td>
-<td>—</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.afro.who.int/publications/atlas-african-health-statistics-2022-health-situation-analysis-who-african-region-1">WHO Africa open reports</a> (Annual health statistics &amp; reports)</td>
-</tr>
-<tr>
-<td>Population &amp; Migration</td>
-<td>You understand how growing populations and movements of people shape economies, cities, and societies in Africa today.</td>
-<td>—</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://data.worldbank.org/country/africa">World Bank Africa data portal</a> (Population &amp; migration datasets)</td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<h2 id="critical-historiography-archives-and-global-diasporas">Critical Historiography, Archives, and Global Diasporas</h2>
+<p>This track examines the critical deconstruction of colonial archives, transoceanic forced migrations, Pan-African liberation thought, and indigenous philosophical systems.</p>
+<p>Critical Historiography &amp; Archival Deconstruction: <a href="https://books.google.com/books?isbn=9781402007439" target="_blank" rel="noopener noreferrer">Refiguring the Archive (Eds. Carolyn Hamilton et al. / Springer)</a> - A specialized volume examining archival power, institutional erasures, and methodologies for recovering marginalized African voices from official state records.</p>
+<p>Transoceanic Forced Migrations &amp; Indian Ocean Diasporas: <a href="https://books.google.com/books?isbn=9780714683881" target="_blank" rel="noopener noreferrer">The Structure of Slavery in Indian Ocean Africa and Asia (Ed. Gwyn Campbell / Routledge)</a> - An authoritative comparative analysis of maritime forced migration, domestic servitude, and diaspora circuits across the Indian Ocean basin.</p>
+<p>Pan-African Intellectual History &amp; Liberation Thought: <a href="https://books.google.com/books?isbn=9781474254274" target="_blank" rel="noopener noreferrer">Pan-Africanism: A History (Hakim Adi / Bloomsbury Academic)</a> - A comprehensive historical investigation tracing the transnational organizational networks, anti-colonial congresses, and political ideologies of the global Pan-African movement.</p>
+<p>Pan-African Intellectual History &amp; Liberation Thought: <a href="https://books.google.com/books?isbn=9781035906093" target="_blank" rel="noopener noreferrer">Unity and Struggle: Speeches and Writings of Amilcar Cabral (Amílcar Cabral / Bloomsbury)</a> - Essential revolutionary writings examining culture as an instrument of national liberation, petty-bourgeois class suicide, and peasant political mobilization.</p>
+<p>African Philosophy &amp; Indigenous Epistemologies: <a href="https://books.google.com/books?isbn=9780253210968" target="_blank" rel="noopener noreferrer">African Philosophy: Myth and Reality (Paulin J. Hountondji / Indiana University Press)</a> - A canonical philosophical critique dismantling descriptive ethnophilosophy in favor of rigorous, open-ended, and written scientific discourse.</p>
+<p>African Philosophy &amp; Indigenous Epistemologies: <a href="https://books.google.com/books?isbn=9780253210807" target="_blank" rel="noopener noreferrer">Cultural Universals and Particulars: An African Perspective (Kwasi Wiredu / Indiana University Press)</a> - An advanced exploration of conceptual decolonization, cross-cultural comparative philosophy, and indigenous Akan epistemology.</p>
+<h2 id="literary-theory-performance-and-screen-cultures">Literary Theory, Performance, and Screen Cultures</h2>
+<p>This track explores postcolonial and decolonial literary aesthetics, performance and oral poetics, African screen media, and contemporary feminist and queer expressive cultures.</p>
+<p>Decolonial Poetics &amp; African Literary Criticism: <a href="https://books.google.com/books?isbn=9781405112017" target="_blank" rel="noopener noreferrer">African Literature: An Anthology of Criticism and Theory (Eds. Tejumola Olaniyan &amp; Ato Quayson / Wiley-Blackwell)</a> - A landmark anthology compiling seminal theoretical essays on language debates, postcolonial disillusionment, structural aesthetics, and the development of the African novel.</p>
+<p>Orature &amp; Performance Aesthetics: <a href="https://www.openbookpublishers.com/books/10.11647/obp.0025" target="_blank" rel="noopener noreferrer">Oral Literature in Africa (Ruth Finnegan / Open Book Publishers)</a> - A comprehensive open-access monograph analyzing poetry, prose narratives, drum languages, and performance traditions across the continent.</p>
+<p>African Cinema &amp; Screen Media: <a href="https://books.google.com/books?isbn=9780253207074" target="_blank" rel="noopener noreferrer">African Cinema: Politics and Culture (Manthia Diawara / Indiana University Press)</a> - A foundational study of anti-colonial cinema movements, production economics, state censorship, and aesthetic developments across Francophone and Anglophone African film.</p>
+<p>African Cinema &amp; Screen Media: <a href="https://books.google.com/books?isbn=9780226387956" target="_blank" rel="noopener noreferrer">Nollywood: The Creation of Nigerian Film Genres (Jonathan Haynes / University of Chicago Press)</a> - An in-depth analysis of Nollywood's video revolution, informal distribution architectures, and popular genre conventions.</p>
+<p>African Feminist &amp; Queer Epistemologies: <a href="https://books.google.com/books?isbn=9780857490162" target="_blank" rel="noopener noreferrer">African Sexualities: A Reader (Ed. Sylvia Tamale / Pambazuka Press)</a> - An expansive multidisciplinary reader addressing gender justice, non-normative sexualities, bodily autonomy, and legal rights through an African feminist framework.</p>
+<h2 id="political-economy-governance-and-conflict-transformation">Political Economy, Governance, and Conflict Transformation</h2>
+<p>This track investigates postcolonial state authority, agrarian land tenure transformations, continental trade integration, and the political economy of modern conflict systems.</p>
+<p>Comparative State Formation &amp; Territorial Power: <a href="https://books.google.com/books?isbn=9780691164144" target="_blank" rel="noopener noreferrer">States and Power in Africa: Comparative Lessons in Authority and Control (Jeffrey Herbst / Princeton University Press)</a> - A comparative treatise analyzing how low population densities and severe geographical barriers shaped the broadcast of political authority and state consolidation across African history.</p>
+<p>Agrarian Transformation &amp; Land Sovereignty: <a href="https://books.google.com/books?isbn=9781847010247" target="_blank" rel="noopener noreferrer">Zimbabwe's Land Reform: Myths and Realities (Ian Scoones et al. / James Currey)</a> - A decade-long empirical field study dismantling orthodox policy myths surrounding land redistribution, smallholder agrarian production, and rural livelihoods.</p>
+<p>Continental Trade &amp; Regional Integration: <a href="https://www.uneca.org/" target="_blank" rel="noopener noreferrer">Assessing Regional Integration in Africa (United Nations Economic Commission for Africa)</a> - Flagship policy reports examining intra-African trade dynamics, regional economic community convergence, and the implementation protocols of the AfCFTA.</p>
+<p>Continental Trade &amp; Regional Integration: <a href="https://books.google.com/books?isbn=9781137501301" target="_blank" rel="noopener noreferrer">Africa and International Relations in the 21st Century (Eds. Scarlett Cornelissen, Fantu Cheru, and Timothy M. Shaw / Palgrave Macmillan)</a> - An advanced volume analyzing changing sovereignty regimes, security governance, and Africa's strategic agency in a multipolar global order.</p>
+<p>Conflict Systems &amp; Peacebuilding Architectures: <a href="https://books.google.com/books?isbn=9780745695587" target="_blank" rel="noopener noreferrer">The Real Politics of the Horn of Africa: Money, War and the Business of Power (Alex de Waal / Polity)</a> - An analytical study explaining contemporary armed conflict and elite bargaining through the conceptual lens of the commodified political marketplace.</p>
+<p>Conflict Systems &amp; Peacebuilding Architectures: <a href="https://books.google.com/books?isbn=9780521156011" target="_blank" rel="noopener noreferrer">The Trouble with the Congo: Local Violence and the Failure of International Peacebuilding (Séverine Autesserre / Cambridge University Press)</a> - An acclaimed field-based study examining how international peacekeeping interventions fail by systematically neglecting bottom-up local drivers of conflict.</p>
+<h2 id="environment-critical-health-and-science-technology-studies-african-sts">Environment, Critical Health, and Science &amp; Technology Studies (African STS)</h2>
+<p>This track analyzes African political ecology, critical global health governance, indigenous technoscience innovation, and urban infrastructural futures.</p>
+<p>Political Ecology &amp; Fortress Conservation: <a href="https://books.google.com/books?isbn=9780520234680" target="_blank" rel="noopener noreferrer">Imposing Wilderness: Struggles over Livelihood and Nature Preservation in Africa (Roderick P. Neumann / University of California Press)</a> - A seminal environmental history demonstrating how the imposition of colonial conservation models dispossessed rural communities and criminalized customary resource use.</p>
+<p>Critical Global Health &amp; Medical Biopolitics: <a href="https://books.google.com/books?isbn=9780822353423" target="_blank" rel="noopener noreferrer">Improvising Medicine: An African Oncology Ward in an Emerging Cancer Epidemic (Julie Livingston / Duke University Press)</a> - An acclaimed medical ethnography examining resource scarcity, institutional improvisation, and the social dynamics of care and palliation in an African hospital.</p>
+<p>Science, Technology, and Society (African STS): <a href="https://direct.mit.edu/books/book/3074/What-Do-Science-Technology-and-Innovation-Mean" target="_blank" rel="noopener noreferrer">What Do Science, Technology, and Innovation Mean from Africa? (Ed. Clapperton Chakanetsa Mavhunga / MIT Press Direct)</a> - An open-access foundational volume redefining technoscience through African epistemologies, grassroots workshop practices, and everyday innovation.</p>
+<p>Urban Spatial Dynamics &amp; Infrastructure: <a href="https://books.google.com/books?isbn=9780822334453" target="_blank" rel="noopener noreferrer">For the City Yet to Come: Changing African Life in Four Cities (AbdouMaliq Simone / Duke University Press)</a> - A groundbreaking urban theory introducing the concept of people as infrastructure and examining informal collaborative survival networks across African metropolises.</p>
+    </article>
+  </main>
 
 </body>
 </html>

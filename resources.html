@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+
+  <title>Resources</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
+
+  <link rel="canonical" href="https://hocbigg.github.io/african-studies/resources.html">
+  <meta property="og:title" content="Resources">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/african-studies/resources.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/african-studies/">African Studies</a></li>
+      <li><a href="/african-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/african-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/african-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/african-studies/resources.html">Resources</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
+
+<h1 id="resources">Resources</h1>
+<h2 id="historical-archives-primary-source-repositories">Historical Archives &amp; Primary Source Repositories</h2>
+<p>This section provides access to digitized historical documents, maritime slave trade manifests, Cold War diplomatic files, and translated primary accounts of African history.</p>
+<ul>
+<li><a href="https://www.slavevoyages.org/" target="_blank" rel="noopener noreferrer">Slave Voyages (Rice University &amp; Hutchins Center)</a> - An open-access quantitative database and interactive map tracking ship manifests, demographic data, and routes across the Trans-Atlantic, Intra-American, and Indian Ocean slave trades.</li>
+<li><a href="https://www.sahistory.org.za/" target="_blank" rel="noopener noreferrer">South African History Online (SAHO)</a> - An independent, open digital history archive housing primary documents, oral testimonies, biographies, and historical timelines centered on Southern African liberation struggles.</li>
+<li><a href="https://sourcebooks.fordham.edu/africa/africasbook.asp" target="_blank" rel="noopener noreferrer">Internet African History Sourcebook (Fordham University / Paul Halsall)</a> - A structured collection of public-domain and copy-permitted historical texts spanning ancient Nubia, medieval travelers' accounts, and anti-colonial manifestos.</li>
+<li><a href="https://digitalarchive.wilsoncenter.org/" target="_blank" rel="noopener noreferrer">Wilson Center Digital Archive: Cold War in Africa (Woodrow Wilson Center)</a> - A searchable repository of declassified diplomatic cables, intelligence briefs, and meeting minutes documenting superpower rivalries and liberation movements across Africa.</li>
+<li><a href="https://eap.bl.uk/" target="_blank" rel="noopener noreferrer">Endangered Archives Programme: Africa (British Library &amp; Arcadia)</a> - A vast collection of digitized, at-risk historical manuscripts, ecclesiastical records, private correspondence, and rare newspapers from across the continent.</li>
+</ul>
+<h2 id="governance-public-opinion-political-data">Governance, Public Opinion &amp; Political Data</h2>
+<p>This section features pan-African survey datasets, governance scorecards, and continental legal frameworks measuring institutional performance and citizen attitudes.</p>
+<ul>
+<li><a href="https://www.afrobarometer.org/" target="_blank" rel="noopener noreferrer">Afrobarometer (Afrobarometer Network)</a> - An independent pan-African research network providing open-access microdata, survey instruments, and country scorecards tracking African public opinion on democracy, economy, and society.</li>
+<li><a href="https://mo.ibrahim.foundation/iiag" target="_blank" rel="noopener noreferrer">Ibrahim Index of African Governance (Mo Ibrahim Foundation)</a> - A comprehensive quantitative assessment measuring public goods delivery, security, rule of law, and human development across all 54 African nations.</li>
+<li><a href="https://au.int/en/treaties" target="_blank" rel="noopener noreferrer">African Union Treaties, Conventions and Protocols (African Union)</a> - The official legal portal providing full texts, ratification tables, and status lists for all continental charters, including the Banjul Charter and the Maputo Protocol.</li>
+</ul>
+<h2 id="conflict-monitoring-security-analysis">Conflict Monitoring &amp; Security Analysis</h2>
+<p>This section aggregates near-real-time political violence tracking, incident mapping, and research on African peace architectures.</p>
+<ul>
+<li><a href="https://acleddata.com/" target="_blank" rel="noopener noreferrer">Armed Conflict Location &amp; Event Data Project (ACLED)</a> - A disaggregated crisis-mapping database documenting political violence, demonstrations, fatalities, and non-state armed actor activity across the African continent.</li>
+<li><a href="https://issafrica.org/" target="_blank" rel="noopener noreferrer">Institute for Security Studies (ISS Africa)</a> - An applied policy research portal publishing security briefs, peace mission assessments, and risk analysis regarding regional conflict systems and terrorism.</li>
+</ul>
+<h2 id="trade-economics-development-statistics">Trade, Economics &amp; Development Statistics</h2>
+<p>This section offers macroeconomic datasets, trade law policy briefs, and regional integration monitors across continental African economies.</p>
+<ul>
+<li><a href="https://www.tralac.org/" target="_blank" rel="noopener noreferrer">Trade Law Centre (tralac)</a> - A trade governance knowledge portal offering legal guides, tariff trackers, working papers, and implementation updates on the African Continental Free Trade Area (AfCFTA).</li>
+<li><a href="https://repository.uneca.org/" target="_blank" rel="noopener noreferrer">ECA Institutional Repository (United Nations Economic Commission for Africa)</a> - The primary open repository for UN-ECA research, housing socioeconomic surveys, trade analysis, and macroeconomic policy publications from 1958 to the present.</li>
+<li><a href="https://dataportal.opendataforafrica.org/" target="_blank" rel="noopener noreferrer">Open Data for Africa (African Development Bank Group)</a> - An interactive data portal offering standardized statistical indicators on national accounts, infrastructure indices, poverty metrics, and agricultural production across Africa.</li>
+</ul>
+<h2 id="scholarly-portals-africana-bibliographies">Scholarly Portals &amp; Africana Bibliographies</h2>
+<p>This section indexes peer-reviewed open-access journals, pan-African social science working papers, and specialized citation tools designed to center African knowledge production.</p>
+<ul>
+<li><a href="https://www.ajol.info/" target="_blank" rel="noopener noreferrer">African Journals OnLine (AJOL)</a> - The world's largest digital library of peer-reviewed, African-published academic journals, providing thousands of open-access articles across humanities and social sciences.</li>
+<li><a href="https://www.africabib.org/" target="_blank" rel="noopener noreferrer">AfricaBib (African Studies Centre Leiden)</a> - A free bibliographic search engine containing over 250,000 indexed records covering Africana periodical literature, African women's studies, and regional history.</li>
+<li><a href="https://codesria.org/" target="_blank" rel="noopener noreferrer">CODESRIA Publications &amp; Open Library (Council for the Development of Social Science Research in Africa)</a> - The flagship open-access monograph and working-paper repository of Africa's premier social science council, focusing on decolonial theory and political economy.</li>
+<li><a href="https://www.africaportal.org/" target="_blank" rel="noopener noreferrer">Africa Portal (South African Institute of International Affairs &amp; CIGI)</a> - A policy research repository hosting over 5,000 open-access research reports, policy briefs, and monographs from prominent continental think tanks.</li>
+</ul>
+<h2 id="linguistics-oral-traditions-cultural-heritage">Linguistics, Oral Traditions &amp; Cultural Heritage</h2>
+<p>This section brings together language typology databases, recorded oral literature archives, and visual material culture collections.</p>
+<ul>
+<li><a href="https://wals.info/" target="_blank" rel="noopener noreferrer">World Atlas of Language Structures Online: Africa (Max Planck Institute for Evolutionary Anthropology)</a> - A structural linguistic atlas providing interactive geographic mapping and phonological/grammatical properties for hundreds of indigenous African languages.</li>
+<li><a href="https://glottolog.org/" target="_blank" rel="noopener noreferrer">Glottolog (Max Planck Institute for Evolutionary Anthropology)</a> - A comprehensive bibliographic database and genealogical classification engine tracking language families, dialects, and reference grammars across Africa.</li>
+<li><a href="https://www.oralliterature.org/" target="_blank" rel="noopener noreferrer">World Oral Literature Project (University of Cambridge)</a> - An open multimedia archive dedicated to documenting, transcribing, and preserving endangered oral poetry, songs, and historical narratives.</li>
+<li><a href="https://africa.si.edu/" target="_blank" rel="noopener noreferrer">Smithsonian National Museum of African Art Collections (Smithsonian Institution)</a> - A searchable digital collections database featuring high-resolution images, provenance data, and curatorial notes for thousands of historical and contemporary African artworks.</li>
+</ul>
+    </article>
+  </main>
+
+</body>
+</html>

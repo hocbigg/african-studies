@@ -1,118 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Extra Reading</title>
-<link rel="stylesheet" href="/african-studies/style.css">
-<meta name="description" content="">
+  <title>Great Readings in African Studies</title>
+  <meta name="description" content="A lightweight static page by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/african-studies/">
+  <link rel="canonical" href="https://hocbigg.github.io/african-studies/extras/readings.html">
+  <meta property="og:title" content="Great Readings in African Studies">
+  <meta property="og:description" content="A lightweight static page by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/african-studies/extras/readings.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Extra Reading">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/african-studies/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/african-studies/">African-Studies</a>
-<a href="/african-studies/advanced_topics.html">Advanced Topics</a>
-<a href="/african-studies/extras/courses.html">Extra Courses</a>
-<a href="/african-studies/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/african-studies/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/african-studies/">African Studies</a></li>
+      <li><a href="/african-studies/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/african-studies/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/african-studies/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/african-studies/resources.html">Resources</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="extra-reading">Extra Reading</h1>
-<p>This document consists of great books or articles on African Studies.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.</p>
-<p>Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.</p>
-<h2 id="history">History</h2>
-<table>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-readings-in-african-studies">Great Readings in African Studies</h1>
+<p>This curated bibliography presents foundational monographs, landmark essays, and paradigm-shifting interventions across African Studies. Rather than introductory textbooks, these works represent the core intellectual debates, methodological breakthroughs, and theoretical frameworks that have defined the discipline for independent scholars.</p>
+<h2 id="epistemology-historiography-philosophy">Epistemology, Historiography &amp; Philosophy</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Title</th>
 <th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Africans-History-Continent-John-Iliffe/dp/1107670070">Africans: The History of a Continent</a></td>
-<td>John Iliffe</td>
+<td><a href="https://books.google.com/books?isbn=9780253204684" target="_blank" rel="noopener noreferrer"><em>The Invention of Africa: Gnosis, Philosophy, and the Order of Knowledge</em></a></td>
+<td>V. Y. Mudimbe</td>
 </tr>
 <tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/King-Leopolds-Ghost-Heroism-Colonial/dp/0618001905">King Leopold's Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa</a></td>
-<td>Adam Hochschild</td>
+<td><a href="https://archive.org/details/oraltraditionash0000vans" target="_blank" rel="noopener noreferrer"><em>Oral Tradition as History</em></a></td>
+<td>Jan Vansina</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/africanphilosop0000houn" target="_blank" rel="noopener noreferrer"><em>African Philosophy: Myth and Reality</em></a></td>
+<td>Paulin J. Hountondji</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/africanoriginofc0000diop" target="_blank" rel="noopener noreferrer"><em>The African Origin of Civilization: Myth or Reality</em></a></td>
+<td>Cheikh Anta Diop</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/philosophyandafr0000wire" target="_blank" rel="noopener noreferrer"><em>Philosophy and an African Culture</em></a></td>
+<td>Kwasi Wiredu</td>
+</tr>
+<tr>
+<td><a href="https://unesdoc.unesco.org/ark:/48223/pf0000042225" target="_blank" rel="noopener noreferrer"><em>"General Introduction" to the General History of Africa, Vol. 1: Methodology and African Prehistory</em></a></td>
+<td>Joseph Ki-Zerbo</td>
 </tr>
 </tbody>
-</table>
-<h2 id="politics-and-society">Politics and Society</h2>
-<table>
+</table></div>
+<h2 id="colonialism-liberation-state-formation">Colonialism, Liberation &amp; State Formation</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Title</th>
 <th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wretched-Earth-Frantz-Fanon/dp/0802141323">The Wretched of the Earth</a></td>
+<td><a href="https://archive.org/details/wretchedofearthf0000fano" target="_blank" rel="noopener noreferrer"><em>The Wretched of the Earth</em></a></td>
 <td>Frantz Fanon</td>
 </tr>
 <tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/States-Power-Africa-Comparative-Authority/dp/0691164142">States and Power in Africa: Comparative Lessons in Authority and Control</a></td>
+<td><a href="https://archive.org/details/citizensubjectco0000mamd" target="_blank" rel="noopener noreferrer"><em>Citizen and Subject: Contemporary Africa and the Legacy of Late Colonialism</em></a></td>
+<td>Mahmood Mamdani</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/onpostcolony0000mbem" target="_blank" rel="noopener noreferrer"><em>On the Postcolony</em></a></td>
+<td>Achille Mbembe</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/statespowerinafr0000herb" target="_blank" rel="noopener noreferrer"><em>States and Power in Africa: Comparative Lessons in Authority and Control</em></a></td>
 <td>Jeffrey Herbst</td>
 </tr>
+<tr>
+<td><a href="https://archive.org/details/unitystrugglespe0000cabr" target="_blank" rel="noopener noreferrer"><em>Unity and Struggle: Speeches and Writings</em></a></td>
+<td>Amílcar Cabral</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/iwritewhatilikese0000biko" target="_blank" rel="noopener noreferrer"><em>I Write What I Like: Selected Writings</em></a></td>
+<td>Steve Biko</td>
+</tr>
 </tbody>
-</table>
-<h2 id="culture-and-literature">Culture and Literature</h2>
-<table>
+</table></div>
+<h2 id="political-economy-development-underdevelopment">Political Economy, Development &amp; Underdevelopment</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Title</th>
 <th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Things-Fall-Apart-Chinua-Achebe/dp/0385474547">Things Fall Apart</a></td>
+<td><a href="https://archive.org/details/how-europe-underdeveloped-africa-walter-rodney" target="_blank" rel="noopener noreferrer"><em>How Europe Underdeveloped Africa</em></a></td>
+<td>Walter Rodney</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780853452720" target="_blank" rel="noopener noreferrer"><em>Accumulation on a World Scale: A Critique of the Theory of Underdevelopment</em></a></td>
+<td>Samir Amin</td>
+</tr>
+<tr>
+<td><a href="https://www.marxists.org/subject/africa/nkrumah/neo-colonialism/" target="_blank" rel="noopener noreferrer"><em>Neo-Colonialism: The Last Stage of Imperialism</em></a></td>
+<td>Kwame Nkrumah</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/democracydevelop0000akec" target="_blank" rel="noopener noreferrer"><em>Democracy and Development in Africa</em></a></td>
+<td>Claude Ake</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/stateinafricapol0000baya" target="_blank" rel="noopener noreferrer"><em>The State in Africa: The Politics of the Belly</em></a></td>
+<td>Jean-François Bayart</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780801478604" target="_blank" rel="noopener noreferrer"><em>Poor Numbers: How We Are Misled by African Development Statistics and What to Do about It</em></a></td>
+<td>Morten Jerven</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="literature-orature-decolonial-aesthetics">Literature, Orature &amp; Decolonial Aesthetics</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/decolonisingmind0000ngug" target="_blank" rel="noopener noreferrer"><em>Decolonising the Mind: The Politics of Language in African Literature</em></a></td>
+<td>Ngũgĩ wa Thiong'o</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/thingsfallapart0000ache" target="_blank" rel="noopener noreferrer"><em>Things Fall Apart</em></a></td>
 <td>Chinua Achebe</td>
 </tr>
 <tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Born-Crime-Stories-African-Childhood/dp/0399588175">Born a Crime: Stories from a South African Childhood</a></td>
-<td>Trevor Noah</td>
+<td><a href="https://books.google.com/books?isbn=9780385247306" target="_blank" rel="noopener noreferrer"><em>Hopes and Impediments: Selected Essays</em></a></td>
+<td>Chinua Achebe</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/mythliteratureaf0000soyi" target="_blank" rel="noopener noreferrer"><em>Myth, Literature and the African World</em></a></td>
+<td>Wole Soyinka</td>
+</tr>
+<tr>
+<td><a href="https://www.openbookpublishers.com/books/10.11647/obp.0025" target="_blank" rel="noopener noreferrer"><em>Oral Literature in Africa</em></a></td>
+<td>Ruth Finnegan</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/africanoralliter0000okpe" target="_blank" rel="noopener noreferrer"><em>African Oral Literature: Backgrounds, Character, and Continuity</em></a></td>
+<td>Isidore Okpewho</td>
 </tr>
 </tbody>
-</table>
-<h2 id="diaspora-and-philosophy">Diaspora and Philosophy</h2>
-<table>
+</table></div>
+<h2 id="gender-sexuality-african-feminisms">Gender, Sexuality &amp; African Feminisms</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th>Name</th>
+<th>Title</th>
 <th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/how-europe-underdeveloped-africa-walter-rodney">How Europe Underdeveloped Africa</a></td>
-<td>Walter Rodney</td>
+<td><a href="https://archive.org/details/inventionofwomen00oyew" target="_blank" rel="noopener noreferrer"><em>The Invention of Women: Making an African Sense of Western Gender Discourses</em></a></td>
+<td>Oyèrónkẹ́ Oyěwùmí</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/maledaughtersfem00amad" target="_blank" rel="noopener noreferrer"><em>Male Daughters, Female Husbands: Gender and Sex in an African Society</em></a></td>
+<td>Ifi Amadiume</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/africansexualiti0000unse" target="_blank" rel="noopener noreferrer"><em>African Sexualities: A Reader</em></a></td>
+<td>Sylvia Tamale (ed.)</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/recreatingoursel00ogun" target="_blank" rel="noopener noreferrer"><em>Re-Creating Ourselves: African Women &amp; Critical Transformations</em></a></td>
+<td>Molara Ogundipe-Leslie</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780415035446" target="_blank" rel="noopener noreferrer"><em>Beyond the Masks: Race, Gender and Subjectivity</em></a></td>
+<td>Amina Mama</td>
 </tr>
 </tbody>
-</table>
-</article>
-</main>
+</table></div>
+    </article>
+  </main>
 
 </body>
 </html>
