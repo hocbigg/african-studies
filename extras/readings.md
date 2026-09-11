@@ -21,7 +21,7 @@ This curated bibliography presents foundational monographs, landmark essays, and
 | [*Citizen and Subject: Contemporary Africa and the Legacy of Late Colonialism*](https://archive.org/details/citizensubjectco0000mamd) | Mahmood Mamdani |
 | [*On the Postcolony*](https://archive.org/details/onpostcolony0000mbem) | Achille Mbembe |
 | [*States and Power in Africa: Comparative Lessons in Authority and Control*](https://archive.org/details/statespowerinafr0000herb) | Jeffrey Herbst |
-| [*Unity and Struggle: Speeches and Writings*](https://archive.org/details/unityandstruggle0000cabr) | Amílcar Cabral |
+| [*Unity and Struggle: Speeches and Writings*](https://archive.org/details/unitystrugglespe0000cabr) | Amílcar Cabral |
 | [*I Write What I Like: Selected Writings*](https://archive.org/details/iwritewhatilikese0000biko) | Steve Biko |
 
 ## Political Economy, Development & Underdevelopment
