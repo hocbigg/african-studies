@@ -1,13 +1,30 @@
-# Extra Courses
+# Great Courses in African Studies
 
-| Resource | Creator / Platform | Format | Why It's Worth Exploring |
-| --- | --- | --- | --- |
-| [*Africa's Great Civilizations*](https://www.pbs.org/show/africas-great-civilizations/) | Henry Louis Gates, Jr. / PBS | Video Documentary Series | A six-hour visual journey spanning two hundred thousand years, documenting ancient empires, technological achievements, and intellectual centers across the continent. |
-| *Africa: A Voyage of Discovery* | Basil Davidson / Channel 4 & RM Arts | Video Documentary Series | The pioneering eight-part masterwork that challenged colonial historiography and visually chronicled African social organization, art, and state-building. |
-| [*Arts of Africa (Smarthistory)*](https://smarthistory.org/reframing-art-history/arts-africa-1700-2000/) | Smarthistory / Open Art History | Video Series & Visual Essays | Short, high-resolution visual analyses of African sculpture, architecture, textiles, and masquerades contextualized by art historians and curators. |
-| *Africa's Past: From Prehistory to Modern Times* | Benjamin N. Lawrance / Wondrium | Video Lecture Series | A comprehensive 24-lecture visual survey focusing on environmental history, trade routes, religious transformations, and anti-colonial resistance. |
-| [*African Development: From the Past to the Present*](https://www.coursera.org/learn/african-development--from-the-past-to-the-present) | Lund University / Coursera | MOOC | Provides an economic history perspective on long-term development patterns, agrarian transitions, colonial extraction, and contemporary economic growth. |
-| [*Climate Adaptation in Africa*](https://www.coursera.org/learn/climate-adaptation) | University of Cape Town (UCT) / Coursera | MOOC | Explores climate vulnerabilities, ecosystem-based adaptation, and policy frameworks tailored to sub-Saharan African environments and livelihoods. |
-| [*Archaeology and Heritage of Africa*](https://www.coursera.org/learn/archaeology-heritage-africa) | University of Cambridge / Coursera | MOOC | Introduces the methodologies of African archaeological discovery, rock art conservation, and the politics of cultural heritage management. |
-| [*Music of Africa (Course 21M.293)*](https://ocw.mit.edu/courses/21m-293-music-of-africa-fall-2005/) | MIT OpenCourseWare | Open Courseware / Audio Lectures | A deep ethnomusicological exploration of polyrhythms, vocal traditions, ceremonial instruments, and modern African popular music genres. |
-| [*Extractive Industries and Sustainable Development in Africa*](https://www.edx.org/) | SDG Academy / edX | MOOC | Analyzes the governance, legal frameworks, environmental impacts, and economic revenue models surrounding oil, gas, and mining across the continent. |
+## Historiography, Archaeology & Deep History
+
+- [The History of Africa with Zeinab Badawi (BBC News Africa / UNESCO / YouTube)](https://www.youtube.com/playlist?list=PLajyiGz4JeyPq2lpEt2skZRhQsAspIQCp)
+- [Archaeology and Heritage of Africa (Coursera / Universitat Autònoma de Barcelona & DAI)](https://www.coursera.org/learn/archaeology-heritage-africa)
+- [African History through the Lens of Economics (Wheeler Institute / London Business School / CEPR)](https://wheelerafricacourse.org/)
+- [Africa's Great Civilizations (PBS / Henry Louis Gates, Jr.)](https://www.pbs.org/show/africas-great-civilizations/)
+
+## Governance, Political Thought & State Formation
+
+- [Democracy and Development: Perspectives from Africa (MITx on edX / Prof. Evan Lieberman)](https://www.edx.org/course/democracy-development-perspectives-mitx-17-571x)
+- [African Political Thought (SOAS University of London / Prof. Stephen Chan)](https://www.youtube.com/watch?v=kYJ5oVfT9R8)
+- [Media Freedom and Freedom of Expression in Africa (WitsX on edX / University of the Witwatersrand)](https://www.edx.org/course/media-freedom-and-freedom-of-expression-in-africa)
+- [Teaching for Change: An African Philosophical Approach (FutureLearn / Stellenbosch University)](https://www.futurelearn.com/courses/african-philosophical-approach-to-teaching)
+
+## Political Economy, Sustainable Resources & Global Health
+
+- [African Development: From the Past to the Present (Coursera / Lund University / Prof. Ellen Hillbom)](https://www.coursera.org/learn/african-development--from-the-past-to-the-present)
+- [Industrial Policy in the 21st Century: The Challenge for Africa (SDG Academy on edX / John Page)](https://www.edx.org/course/industrial-policy-in-the-21st-century-the-challenge-for-africa)
+- [Natural Resources for Sustainable Development: The Fundamentals of Oil, Gas and Mining Governance (SDG Academy on edX / Columbia University)](https://www.edx.org/course/natural-resources-for-sustainable-development)
+- [Climate Adaptation in Africa (Coursera / University of Cape Town / Prof. Mark New)](https://www.coursera.org/learn/climate-adaptation)
+- [Examining African Contributions to Global Health (FutureLearn / University of Basel)](https://www.futurelearn.com/courses/african-contributions-to-global-health)
+
+## Urban Planning, Infrastructure & Sustainable Cities
+
+- [African cities: An Introduction to Urban Planning (Coursera / EPFL / Dr. Jérôme Chenal)](https://www.coursera.org/learn/african-cities1)
+- [Development & Planning in African Cities (FutureLearn / University College London & SLURC)](https://www.futurelearn.com/courses/african-cities)
+- [Planning for Climate Change in African Cities (Coursera / Erasmus University Rotterdam & UCLGA)](https://www.coursera.org/learn/climate-change-africa)
+- [Financing Infrastructure in African Cities (Coursera / United Cities and Local Governments of Africa)](https://www.coursera.org/learn/financing-infrastructure-in-african-cities)
