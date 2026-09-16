@@ -5,9 +5,25 @@ description: Path to a free self-taught education in African Studies!
 
 ## Introduction
 
-The African Studies curriculum is a comprehensive education in African Studies, designed for self-directed study using online materials. This curriculum emphasizes interdisciplinary approaches, covering the African continent's histories, cultures, societies, politics, and global connections, including diaspora elements where relevant to continental dynamics.
+African Studies is an interdisciplinary field that examines the histories, societies, cultures, and political economies of the African continent and its global diaspora. Rather than viewing the continent through reductive narratives of external intervention, crisis, or colonial categorization, the discipline centers African agency, epistemologies, and institutional innovations. Studying African Studies provides a rigorous grounding in the continent's deep evolutionary prehistory, early state formations and trans-regional commercial networks, the ruptures of the slave trade and European colonialism, and the ongoing social transformations shaping modern African societies.
 
-## Communities
+This curriculum is intended for independent learners approaching the discipline from the beginning. No prior background in African history, linguistics, anthropology, or international development is assumed. Foundational terminology — ranging from lineage systems and oral source criticism to neopatrimonialism and epistemic decolonization — is introduced directly through the core readings and lecture series.
+
+### Scope
+
+This page focuses on the foundational core: the key concepts, historical milestones, and analytical debates that virtually every learner in African Studies must understand. It purposefully excludes specialized elective areas, such as detailed language acquisition (e.g., Swahili, Yoruba, or Amharic grammar), specialized regional subfield studies (such as North African security politics or Southern African mining legal histories), and advanced academic research methodologies.
+
+Once you have mastered the foundational subjects presented here, you can consult the **[Advanced Topics](advanced_topics.md)** guide to explore regional specializations and deeper theoretical debates, or draw upon the **[Readings](extras/readings.md)**, and **[Courses](extras/courses.md)** pages to engage with primary source archives, practical case studies, and extended creative literature.
+
+### How to Navigate the Curriculum
+
+The curriculum is structured to guide you from foundational research frameworks through a chronological historical sequence, followed by thematic inquiries into contemporary African life:
+
+- **Epistemological and Spatial Foundations:** Begin with *Scope & Epistemologies of African Studies*, *African Physical & Human Geography*, and *African Historiography & Methodologies*. These subjects provide the conceptual and environmental tools necessary for serious study, establishing how knowledge about Africa is produced, how regional ecologies shaped human settlement, and how scholars rigorously corroborate oral traditions, archaeology, and historical linguistics.
+- **The Chronological Historical Spine:** Work through the historical subjects in sequential order, from *Human Origins & African Prehistory* and language migrations through early states, the slave trade eras, European partition, and anti-colonial resistance. Because each era structurally transformed the next, following this chronological sequence ensures you understand the historical precedents behind contemporary borders, demographic patterns, and institutional legacies.
+- **Contemporary Thematic Inquiries:** After completing the historical spine through decolonization, the remaining subjects—spanning post-colonial governance, political economy, Pan-African diplomacy, religions and philosophies, literature, African feminisms, and urbanization—can be studied in any order that suits your interests. Each topic addresses how historical structures interact with modern adaptations and policy challenges across the continent.
+
+### Communities
 
 - Subreddits: [r/AfricanaStudies](https://www.reddit.com/r/AfricanaStudies/)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/african-studies/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
